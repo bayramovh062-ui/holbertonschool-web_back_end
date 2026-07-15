@@ -1,0 +1,1 @@
+# this folder explains that how to work with pagination
