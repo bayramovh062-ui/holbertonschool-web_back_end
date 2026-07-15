@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-that is a module that it remains itself a helper function
+that is a module that it remains itself function
 """
 from typing import Tuple
 
