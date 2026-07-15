@@ -2,9 +2,9 @@
 """
 that is a module that it remains itself a helper function
 """
+from typing import Tuple
 
-
-def index_range(page, page_size):
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     this function returns a tuple corresponding to the range of indexes
     """
