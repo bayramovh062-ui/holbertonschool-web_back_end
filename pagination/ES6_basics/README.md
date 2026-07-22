@@ -1,0 +1,1 @@
+# that is a folder that contains js files which explains ES6
