@@ -15,6 +15,6 @@ export default class SkyHighBuilding extends Building {
   }
 
   evacuationWarningMessage() {
-    return "Evacuate slowly the NUMBER_OF_FLOORS floors"
+    throw new Error("Evacuate slowly the NUMBER_OF_FLOORS floors")
   }
 }
