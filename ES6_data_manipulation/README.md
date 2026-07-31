@@ -1,0 +1,1 @@
+# this folder contains js codes which explains how to work ES6 data manipulation
