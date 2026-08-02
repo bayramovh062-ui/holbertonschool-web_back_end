@@ -7,3 +7,5 @@ export const getFullResponseFromAPI = (flag) => {
     }
   })
 }
+
+export default getFullResponseFromAPI
