@@ -4,12 +4,12 @@ import uploadPhoto from "./5-photo-reject";
 export default function handleProfileSignup(firstName, lastName, fileName) {
   return [
     {
-        status: signUpUser().status,
-        value: signUpUser().value
+        status: signUpUser(firstName, lastName).status,
+        value: signUpUser(firstName, lastName).value
     },
     {
-        status: uploadPhoto.status,
-        value: uploadPhoto.value
+        status: uploadPhoto(fileName).status,
+        value: uploadPhoto(fileName).value
     }
   ]
 }
